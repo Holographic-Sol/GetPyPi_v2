@@ -8,5 +8,5 @@ Webcrawlers designed for harvesting pypi packages.
 3. Run a program individually or run GetPypiv2 (included) and select an option to download pretty much everything,
 either by 'os' or by 'programming language'.
 
-Fun Fact: This will yake a while and also each module will be stored with its own description file in its own directory which could be used for parsing if one had to dig.
+Fun Fact: This will take a while and also each module will be stored with its own description file in its own directory which could be used for parsing if one had to dig.
 
