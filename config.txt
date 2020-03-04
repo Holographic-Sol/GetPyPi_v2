@@ -1,1 +1,1 @@
-DEST: X:\Archives\5 Programming Language Library\PyPi
+DEST: foo path
