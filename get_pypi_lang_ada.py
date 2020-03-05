@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import distutils.dir_util
 import urllib.request
 
-build_name = 'os_ios.dat'
+build_name = 'lang_ada.dat'
 
 # Page Iteration Count
 pg_count = 0
@@ -31,7 +31,7 @@ def main_funk(dl_loc):
     dl_fullpath = ''
     try:
         # Set Initial URL
-        url = "https://pypi.org/search/?q=&o=&c=Operating+System+%3A%3A+iOS"
+        url = "https://pypi.org/search/?q=&o=&c=Programming+Language+%3A%3A+Ada"
 
         # print('-source:', url)
 
@@ -211,7 +211,7 @@ with open('config.txt', 'r') as fo:
         line = line.strip()
         if line.startswith('DEST: ') and os.path.exists(line.replace('DEST: ', '')):
             dl_loc = line.replace('DEST: ', '')
-            dl_loc = dl_loc + "/os_ios"
+            dl_loc = dl_loc + "/lang_ada"
             distutils.dir_util.mkpath(dl_loc)
             main_funk(dl_loc)
         else:
